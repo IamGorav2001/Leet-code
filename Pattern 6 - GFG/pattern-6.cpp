@@ -9,13 +9,12 @@ public:
 	
 	void printTriangle(int n) {
 	    // code here
-	    for(int i=n;i>0;i--){
-	        for(int j=1;j<=i;j++){
-	            cout<<j<<" ";
+	    for(int row = 1; row<= n;row++){
+	        for(int col=1; col<=n+1-row;col++){
+	            cout<<col<<" ";
 	        }
 	        cout<<endl;
 	    }
-	    
 	}
 };
 
