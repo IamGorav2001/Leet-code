@@ -9,8 +9,8 @@ public:
 	
 	void printTriangle(int n) {
 	    // code here
-	    for(int i=n;i>0;i--){
-	        for(int j=0;j<i;j++){
+	    for(int row=1;row<=n;row++){
+	        for(int col=1;col<= n+1-row;col++){
 	            cout<<"* ";
 	        }
 	        cout<<endl;
